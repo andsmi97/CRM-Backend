@@ -1,0 +1,30 @@
+version: '3'
+services:
+  # PostgreSQL
+  postgres:
+    container_name: postgres
+    build: ./postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_URL: postgres://admin:password@localhost:5432/crm
+      POSTGRES_DB: crm
+      POSTGRES_HOST: postgres
+    ports:
+      - "5432:5432"
+
+  # Backend
+  crm:
+    container_name: backend
+    build: ./
+    volumes:
+      - ./:/usr/src/crm
+    command: yarn start
+    working_dir: /usr/src/crm
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_URI: postgres://admin:password@postgres:5432/crm
+    links:
+      - postgres
+

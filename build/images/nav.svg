@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640.2" height="52" viewBox="0 0 1640.2 52">
+  <g id="nav" transform="translate(-141 -25)">
+    <text id="Logo" transform="translate(141 61)" font-size="30" font-family="Audiowide-Regular, Audiowide"><tspan x="0" y="0">FluentCRM</tspan></text>
+    <g id="nav-2" data-name="nav" transform="translate(1 1)">
+      <g id="Links" transform="translate(104)">
+        <text id="Контакты" transform="translate(1252 61)" fill="#5c6bc0" font-size="30" font-family="Roboto-Regular, Roboto"><tspan x="-137.695" y="0">Контакты</tspan></text>
+        <text id="Особенности" transform="translate(876 61)" fill="#5c6bc0" font-size="30" font-family="Roboto-Regular, Roboto"><tspan x="-185.054" y="0">Особенности</tspan></text>
+        <text id="Цены" transform="translate(1034 61)" fill="#5c6bc0" font-size="30" font-family="Roboto-Regular, Roboto"><tspan x="-78.413" y="0">Цены</tspan></text>
+      </g>
+      <g id="Button" transform="translate(103.8)">
+        <path id="Background" d="M19.976,0H324.224C335.257,0,344.2,11.641,344.2,26s-8.944,26-19.976,26H19.976C8.944,52,0,40.359,0,26S8.944,0,19.976,0Z" transform="translate(1332.2 24)" fill="#5c6bc0"/>
+        <text id="Начать_бесплатно" data-name="Начать бесплатно" transform="translate(1619.2 60)" fill="#fff" font-size="27" font-family="Roboto-Regular, Roboto"><tspan x="-230.37" y="0">Начать бесплатно</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

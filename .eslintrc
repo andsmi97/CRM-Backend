@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "import/no-unresolved": "off",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "no-shadow": 0,
+    "no-return-assign": "off",
+    "no-param-reassign":"off"
+  }
+}
